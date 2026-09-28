@@ -8,35 +8,6 @@ Shorts Bot automates the repetitive parts of short-form content production. Inst
 
 At a high level, Shorts Bot takes a content topic and turns it into a finished vertical short-form video.
 
-Topic / Input
-     ↓
-AI Script Generation
-     ↓
-Sentence / Scene Breakdown
-     ↓
- ┌───────────────┬────────────────┐
- ↓               ↓                ↓
-Pexels        ElevenLabs      Scene Data
-Footage       Voiceover           │
- └───────────────┴────────────────┘
-                 ↓
-          Video Composition
-                 ↓
-      ┌──────────┼──────────┐
-      ↓          ↓          ↓
-   Captions    Music     Formatting
-      └──────────┼──────────┘
-                 ↓
-          Final Vertical Video
-                 ↓
-        ┌────────┴────────┐
-        ↓                 ↓
-     YouTube           Instagram
-      Shorts             Reels
-        └────────┬────────┘
-                 ↓
-          Excel Tracking
-
 🚀 Features
 
 🧠 AI Script Generation
@@ -594,11 +565,17 @@ The rendering stage can be visualized as:
       ┌──────────────┼──────────────┐
       │              │              │
       ▼              ▼              ▼
- Voiceover       Captions         Music
-      │              │              │
-      └──────────────┼──────────────┘
-                     ↓
-              Final Short/Reel
+ 
+    Voiceover        Captions         Music
+      
+	 │              │              │
+      
+	 │──────────────┼──────────────│
+                                
+              
+				 ↓
+              
+		    Final Short/Reel
 
 🎛️ Configuration
 
